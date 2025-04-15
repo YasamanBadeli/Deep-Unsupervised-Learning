@@ -90,17 +90,6 @@ After training, the script generates samples for each style label
 Displays results in a side-by-side image grid
 
 
-# 
-Let me know if you’d like:
-
-📁 A zipped folder with all files structured
-
-🖼️ Help designing a banner or adding sample images
-
-🌐 A version ready to publish on GitHub
-
-Happy coding! 🌟
-
 
 
 
