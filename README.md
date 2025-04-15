@@ -16,33 +16,39 @@ style: the fashion category or type
 The images are converted to grayscale and resized to 28×28 pixels for simplicity and faster training.
 
 # 🎯 Project Goal
-The objective is to build a Conditional Variational Autoencoder (CVAE) that can:
+This project aims to develop a deep learning pipeline for classifying and recoloring fashion editorial products using Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs).
 
-# . Learn latent representations of fashion images
+The workflow consists of two main stages:
 
-# . Generate new images conditioned on specific clothing styles
+## Unsupervised Classification:
+Fashion items are analyzed using deep feature extraction and clustering to classify them based on style, material, and color attributes. This creates a structured understanding of the dataset by identifying dominant colors and visual patterns.
 
-# . Explore the structure of fashion latent space
+## Recoloring via Generation:
+After classification, the system generates new color variants of the same fashion items while preserving their structure and texture.
 
-This allows both style-conditioned generation and a deeper understanding of visual characteristics of fashion items.
+VAEs learn latent representations for smooth transformations across colors.
+
+GANs (e.g., Pix2Pix or CycleGAN) enhance the realism and quality of recolored outputs.
+
+This approach enables automated fashion augmentation, supporting digital styling and editorial design.
 
 # 🛠️ Key Components
-# ✅ Dataset
+## ✅ Dataset
 . Images: Fashion item photos
 
 . Labels: Style categories (e.g., dress, shirt, jeans)
 
-# ✅ Model
+## ✅ Model
 . Encoder: Learns latent representations conditioned on label
 
 . Decoder: Generates images from latent space and label
 
-# ✅ Loss Function
+## ✅ Loss Function
 . Reconstruction Loss: Binary cross-entropy between input and output
 
 . KL Divergence: Encourages the latent space to follow a normal distribution
 
-# ✅ Visualization
+## ✅ Visualization
 . Generated samples are visualized:
 
   . Each sample is conditioned on a specific style
