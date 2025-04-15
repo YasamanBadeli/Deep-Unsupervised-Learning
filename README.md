@@ -1,6 +1,6 @@
 # Deep-Unsupervised-Learning
 
-# 👗 Fashion Style Generation using Conditional Variational Autoencoder (CVAE)
+# 👗 Fashion Editorial Classification and Recoloring 
 
 # 📚 Dataset
 This project uses a Fashion Dataset consisting of clothing images and their associated style labels.
