@@ -65,31 +65,6 @@ torchvision
 
 pandas
 
-matplotlib
-
-Pillow
-
-# 💡 Usage
-1. Preprocessing
-Reads and resizes images to 28×28 grayscale
-
-Labels are one-hot encoded
-
-2. Training
-bash
-Copy
-Edit
-python cvae_fashion.py
-Trains the CVAE model using image-label pairs
-
-Saves the trained model to models/cvae.pth
-
-3. Visualization
-After training, the script generates samples for each style label
-
-Displays results in a side-by-side image grid
-
-
 
 
 
